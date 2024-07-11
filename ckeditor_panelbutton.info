@@ -1,0 +1,6 @@
+name = CKEditor Panel Button
+description = CKEditor plugin for extending the button plugin.
+package = User interface
+backdrop = 1.x
+type = module
+dependencies[] = ckeditor

@@ -1,0 +1,23 @@
+<?php
+
+/**
+ * @file
+ * Registering CKEditor plugin.
+ */
+
+/**
+ * Implements hook_ckeditor_plugins().
+ */
+function ckeditor_panelbutton_ckeditor_plugins() {
+  $path = backdrop_get_path('module', 'ckeditor_panelbutton') . '/plugins/panelbutton';
+  $plugins['panelbutton'] = array(
+    'file' => 'plugin.js',
+    'path' => $path,
+    'enabled callback' => 'ckeditor_panelbutton_plugin_check',
+  );
+  return $plugins;
+}
+
+function ckeditor_panelbutton_plugin_check($format, $plugin_name) {
+  return TRUE;
+}
