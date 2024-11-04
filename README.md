@@ -1,4 +1,4 @@
-CKEditor Indent
+CKEditor Panel Button
 =================
 
 This plugin for CKEditor extends the button plugin. It is a dependency for
@@ -14,13 +14,14 @@ Install
 
 - Enable the module.
 
+Current Maintainers
+-------------------
+
+- [Eli Lisseck](https://github.com/elisseck).
+- [Anthony Nemirovsky](https://github.com/anemirovsky).
+
 License
 -------
 
 This project is GPL v2 software. See the LICENSE.txt file in this directory for
 complete text.
-
-Current Maintainers
--------------------
-
-- [Giant Rabbit](https://github.com/giant-rabbit).
